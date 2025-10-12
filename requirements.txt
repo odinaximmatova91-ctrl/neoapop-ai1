@@ -3,8 +3,6 @@ pandas
 numpy
 requests
 streamlit-authenticator
-rdkit-pypi
-py3Dmol
-stmol
 Pillow
+
 
