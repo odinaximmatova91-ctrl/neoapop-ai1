@@ -1,11 +1,19 @@
-# NeoApop-AI (Pro demo)
+# NeoApop-AI (Pro Demo)
 
-Streamlit-based demo for AI-assisted drug discovery.
-Features:
-- User login (streamlit-authenticator)
-- Single SMILES analysis (2D + descriptors)
-- Batch CSV processing (smiles column)
-- Snowflake skeleton + AI prediction demo
+Streamlit-based AI + Drug Discovery demo platform.
 
-## How to run locally
-1. Create virtualenv, install requirements:
+### Login
+Username: admin
+Password: demo123
+
+### Features
+- Login system (`streamlit-authenticator`)
+- SMILES input → molecular descriptors (RDKit optional)
+- CSV upload + batch analysis
+- AI demo (random predictions)
+- Works fully on Streamlit Cloud
+
+### Run locally
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
