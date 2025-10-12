@@ -1,1 +1,10 @@
-streamlit
+streamlit==1.30.0
+pandas
+numpy
+requests
+streamlit-authenticator
+rdkit-pypi
+py3Dmol
+stmol
+Pillow
+
